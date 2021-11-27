@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  --white: #ffffff;
+  --gray: #c1cad6;
+  --blue: #66c7f4;
+  --purple: #6c6ea0;
+}
+
+img {
+  margin: 20px;
+}
+
+form input {
+  text-align: left;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+form button {
+  margin-top: 5px;
+  background-color: var(--blue);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 1px 2px 5px black;
+}
+
+form button:hover {
+  color: var(--white);
+}
+
+.result {
+  padding: 7px;
+  border: 1px solid var(--blue);
+}
