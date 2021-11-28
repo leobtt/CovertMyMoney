@@ -13,7 +13,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('', async(req,res)=> {
   const price = await priceAPI.getPrice()
-  res.render('home', { price: price.toFixed(2) })
+  res.render('home', { price: price })
 })
 
 app.get('/price', (req,res) => {
